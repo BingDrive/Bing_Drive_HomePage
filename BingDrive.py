@@ -11,13 +11,13 @@ class User:
     def __str__(self):
         return f"Name: {self.name}\nLevel: {self.level}\nMatric Number: {self.matric_number}\nDepartment: {self.department}"
 
-class AccessPoint:
-    def __init__(self, name, location):
-        self.name = name
-        self.location = location
-
-    def __str__(self):
-        return f"{self.name} - {self.location}"
+# class AccessPoint:
+#     def __init__(self, name, location):
+#         self.name = name
+#         self.location = location
+#
+#     def __str__(self):
+#         return f"{self.name} - {self.location}"
 
 class Route:
     def __init__(self, start_point, end_point, distance, vehicle_type, cost):
